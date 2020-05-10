@@ -1,0 +1,42 @@
+{
+  "shoppingLists": [
+    {
+      "title": "shopping List 1",
+      "items": [
+        {
+          "text": "sh 2",
+          "checked": false
+        },
+        {
+          "text": "sh 54",
+          "checked": true
+        }
+      ],
+      "id": 1
+    },
+    {
+      "title": "shopping List 2",
+      "items": [
+        {
+          "text": "test12",
+          "checked": true
+        },
+        {
+          "text": "test 4",
+          "checked": true
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "test 3",
+      "items": [
+        {
+          "text": "fsdfs",
+          "checked": false
+        }
+      ],
+      "id": 3
+    }
+  ]
+}

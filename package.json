@@ -5,14 +5,24 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
+    "test:unit": "nyc vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "bootstrap": "^4.4.1",
     "core-js": "^3.4.4",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
+    "underscore": "^1.9.1",
     "vue": "^2.6.10",
-    "vuex": "^3.1.2"
+    "vue-resource": "^1.5.1",
+    "vuex": "^3.1.2",
+    "webpack": "^4.41.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
@@ -23,11 +33,15 @@
     "@vue/cli-service": "^4.1.0",
     "@vue/test-utils": "1.0.0-beta.29",
     "babel-eslint": "^10.0.3",
+    "babel-plugin-istanbul": "^6.0.0",
     "chai": "^4.1.2",
     "chromedriver": "78",
+    "cypress": "^3.8.2",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "geckodriver": "^1.19.1",
+    "nyc": "^15.0.0",
+    "sinon": "^8.0.4",
     "vue-template-compiler": "^2.6.10"
   }
 }
