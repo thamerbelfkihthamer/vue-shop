@@ -5,6 +5,17 @@
 npm install
 ```
 
+### Install json-server as json database for the demo
+
+```
+npm install json-server -g
+```
+
+## Launch json-server
+```
+json-server --watch server/db.json
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
